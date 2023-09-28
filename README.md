@@ -10,3 +10,9 @@ The purpose of the codes is to show that with a simple reordering of loops in th
 - fun_vfi: implements the standard method
 - fun_vfi2: implements the new method with modified Howard
 The standard method follows closely Robert Kirkby's VFI toolkit, see https://www.vfitoolkit.com/
+
+% RESULTS
+% n_a=1000, n_z=7, ratio of new vs old = 0.934
+% n_a=1000, n_z=21, ratio of new vs old = 0.81
+% n_a=1000, n_z=51, ratio of new vs old = 0.42
+% n_a=1000, n_z=101, ratio of new vs old = 0.288
