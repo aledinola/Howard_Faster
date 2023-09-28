@@ -14,7 +14,6 @@ The standard method follows closely Robert Kirkby's VFI toolkit, see https://www
 RESULTS
 
 n_a=1000, n_z=7, ratio of new vs old = 0.934
-
 n_a=1000, n_z=21, ratio of new vs old = 0.81
 
 n_a=1000, n_z=51, ratio of new vs old = 0.42
