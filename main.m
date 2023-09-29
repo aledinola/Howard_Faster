@@ -6,6 +6,7 @@ close all
 
 %% fun_vfi follows closely the implementation of value function iteration for the
 % infinite-horizon model without d variable in the toolkit
+% fun_vfi_RK follows closely ValueFnIter_Case1_NoD_raw
 % fun_vfi2 changes some loops in the Howard and achieves a 50% speedup
 % Note: the speedup is higher the more points for z you have
 % RESULTS
@@ -43,8 +44,9 @@ end
 toc
 
 tic
-[V,Policy] = fun_vfi(n_a,n_z,pi_z,ReturnMat,beta,verbose);
+[V,Policy] = fun_vfi_RK(n_a,n_z,pi_z,ReturnMat,beta,verbose);
 time1 = toc
+
 
 tic
 [V2,Policy2] = fun_vfi2(n_a,n_z,pi_z,ReturnMat,beta,verbose);

@@ -1,4 +1,4 @@
-function [V1,Policy] = fun_vfi(n_a,n_z,pi_z,ReturnMat,beta,verbose)
+function [V1,Policy] = fun_vfi_old(n_a,n_z,pi_z,ReturnMat,beta,verbose)
 
 tol   = 1e-5;
 maxit = 600;
